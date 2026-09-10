@@ -13,11 +13,11 @@ export default function OurOfficeSection() {
           <p className="text-[11.5px] sm:text-[12.5px] tracking-[0.28em] uppercase font-semibold text-[#B5694C] mb-5">
             The Santa Monica Practice Space
           </p>
-          <h2 className="text-3xl sm:text-4xl lg:text-[48px] xl:text-[54px] font-serif font-light text-[#2A1F1A] leading-[1.35] tracking-tight mb-8 sm:mb-10">
-            <span className="block mb-3 sm:mb-4">A quiet, grounding sanctuary</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-[48px] xl:text-[54px] font-serif font-light text-[#2A1F1A] leading-[1.4] tracking-tight mb-10 sm:mb-14">
+            <span className="block mb-5 sm:mb-7 lg:mb-8">A quiet, grounding sanctuary</span>
             <span className="block">
               designed for{" "}
-              <span className="font-script text-[#B5694C] text-[1.08em] lowercase font-normal inline-block ml-1.5 align-baseline relative top-[1px]">
+              <span className="font-script text-[#B5694C] text-[0.98em] sm:text-[1.02em] lowercase font-normal inline-block ml-1.5 align-baseline relative top-[2px]">
                 healing.
               </span>
             </span>
