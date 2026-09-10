@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'PrintedMoments';
+  src: url('/fonts/printedmoments-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  body {
+    color: #2A1F1A;
+    background-color: #ffffff;
+    font-family: var(--font-mulish), 'Mulish', 'Muli', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-cormorant), 'Cormorant Infant', Georgia, serif;
+    font-weight: 300;
+    color: #2A1F1A;
+  }
+}
+
+.font-script {
+  font-family: 'PrintedMoments', cursive;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Micro-interaction: Animated underline button matching original Squarespace */
+.btn-underline {
+  position: relative;
+  display: inline-block;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding-bottom: 4px;
+}
+
+.btn-underline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom: 1px solid #2A1F1A;
+  transition: right 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.btn-underline:hover::before {
+  right: 100%;
+}
+
+/* Header nav hover link underline */
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding: 4px 0;
+}
+
+.nav-link::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: #2A1F1A;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
