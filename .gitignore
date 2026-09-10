@@ -5,8 +5,7 @@
 
 # Testing & Automation Outputs
 /coverage
-scripts/mobile_*.png
-scripts/test_*.png
+scripts/*.png
 
 # Next.js Build Output
 /.next/

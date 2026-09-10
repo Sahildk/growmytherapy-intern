@@ -7,6 +7,7 @@ import BannerQuoteSection from "@/components/BannerQuoteSection";
 import AreasOfExpertiseSection from "@/components/AreasOfExpertiseSection";
 import HowWeWorkSection from "@/components/HowWeWorkSection";
 import MayaBioSection from "@/components/MayaBioSection";
+import OurOfficeSection from "@/components/OurOfficeSection";
 import HonoringSection from "@/components/HonoringSection";
 import SpecialtiesSection from "@/components/SpecialtiesSection";
 import FindTherapistSection from "@/components/FindTherapistSection";
@@ -40,7 +41,10 @@ export default function Home() {
       {/* 8. Meet Dr. Maya Reynolds Bio Section */}
       <MayaBioSection />
 
-      {/* 9. Honoring Split Section */}
+      {/* 9. Our Office Custom Section (Part 3) */}
+      <OurOfficeSection />
+
+      {/* 10. Honoring Split Section */}
       <HonoringSection />
 
       {/* 10. Specialties Section */}

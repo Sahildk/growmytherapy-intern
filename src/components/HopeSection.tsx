@@ -41,8 +41,8 @@ export default function HopeSection() {
         <div className="w-full lg:w-[46vw] xl:w-[48vw] max-w-[920px] flex-shrink-0">
           <div className="w-full overflow-hidden shadow-none">
             <Image
-              src="/img/hope-office.jpg"
-              alt="Dr. Maya Reynolds serene therapy room interior in Santa Monica"
+              src="/img/hope-welcome.jpg"
+              alt="Serene therapy consultation space with comfortable seating and natural light"
               width={920}
               height={760}
               className="w-full aspect-[920/760] object-cover object-center block"

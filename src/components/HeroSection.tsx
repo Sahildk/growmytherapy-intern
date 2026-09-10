@@ -11,7 +11,7 @@ export default function HeroSection() {
           <div className="w-full overflow-hidden shadow-none">
             <Image
               src="/img/hero-main.jpg"
-              alt="Dr. Maya Reynolds private therapy office in Santa Monica"
+              alt="A peaceful, sunlit therapy sanctuary overlooking Santa Monica greenery"
               width={1000}
               height={1350}
               priority

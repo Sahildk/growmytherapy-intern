@@ -22,9 +22,9 @@ export default function Header() {
   }, [mobileMenuOpen]);
 
   const aboutLinks = [
-    "About Dr. Maya",
-    "Santa Monica Office",
-    "Approach & Philosophy",
+    { label: "About Dr. Maya", href: "#about" },
+    { label: "Our Office", href: "#office" },
+    { label: "Approach & Philosophy", href: "#how-we-work" },
   ];
 
   const specialties = [
@@ -69,11 +69,11 @@ export default function Header() {
               <div className="bg-[#F8F5F0] shadow-md border border-[#E0D4CB] min-w-[220px] py-2">
                 {aboutLinks.map((item) => (
                   <Link
-                    key={item}
-                    href="#about"
+                    key={item.label}
+                    href={item.href}
                     className="block px-5 py-2 text-[11px] tracking-normal capitalize text-[#3D2E27] hover:bg-[#E8D5CC] hover:text-[#2A1F1A] transition-colors"
                   >
-                    {item}
+                    {item.label}
                   </Link>
                 ))}
               </div>
@@ -194,6 +194,14 @@ export default function Header() {
                   className="text-[26px] sm:text-[30px] font-light tracking-[0.06em] uppercase text-[#2A1F1A] hover:text-[#B5694C] transition-colors text-left"
                 >
                   About
+                </Link>
+
+                <Link
+                  href="#office"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="text-[26px] sm:text-[30px] font-light tracking-[0.06em] uppercase text-[#2A1F1A] hover:text-[#B5694C] transition-colors text-left"
+                >
+                  Our Office
                 </Link>
 
                 <button

@@ -31,7 +31,11 @@ This project was developed in two progressive phases:
 
 - **📖 Dr. Maya Bio & Clinical Philosophy**:
   - Comprehensive clinical background, license credentials (PSY33458), and compassionate philosophy.
-  - Office atmosphere preview showcasing a tranquil, private, and grounding therapeutic environment.
+
+- **🏛️ Our Office (Custom Section - Part 3)**:
+  - Custom showcase of Dr. Maya Reynolds' Santa Monica practice sanctuary (*123th Street 45 W, Santa Monica, CA 90401*).
+  - Editorial presentation of authentic profile photography highlighting exposed brick, arched sunny windows, and restorative reading corner.
+  - Pillars of comfort, acoustic confidentiality, in-person and hybrid telehealth availability, and immediate consultation booking prompt.
 
 - **🧠 Evidence-Based Methods**:
   - Breakdown of therapeutic modalities: Cognitive Behavioral Therapy (CBT), EMDR, Mindfulness, and Somatic Experiencing.
@@ -122,6 +126,7 @@ npm run start
 │       ├── HeroSection.tsx       # Hero banner with dual image layout
 │       ├── WhoWeHelpSection.tsx  # Specialties & patient profiles
 │       ├── MayaBioSection.tsx    # Dr. Maya Reynolds introduction
+│       ├── OurOfficeSection.tsx  # Physical practice sanctuary (Part 3)
 │       ├── HowWeWorkSection.tsx  # Therapy modalities & structure
 │       ├── HopeSection.tsx       # Office & practice values
 │       ├── SpecialtiesSection.tsx# Clinical focus areas & badges
