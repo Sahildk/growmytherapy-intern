@@ -26,7 +26,8 @@ export default function OurOfficeSection() {
             Therapy works best when your nervous system feels physically and emotionally
             at ease. Dr. Maya Reynolds’ Santa Monica office was intentionally curated as
             an antidote to the noise and pace of daily life—a calm, private space
-            where you are invited to slow down, reconnect, and exhale.
+            where you are invited to slow down, reconnect, and exhale. Sessions are offered in-person in Santa Monica and via secure
+            telehealth across California.
           </p>
         </div>
 
