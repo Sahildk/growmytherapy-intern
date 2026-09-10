@@ -31,7 +31,7 @@ export default function OurOfficeSection() {
         </div>
 
         {/* Asymmetric Editorial Diptych: Curated Practice Photography */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center mb-12 lg:mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           {/* Primary Hero Image: Grand Brick Wall & Window View (7 cols) */}
           <div className="lg:col-span-7 flex flex-col group">
             <div className="relative w-full aspect-[4/3] sm:aspect-[16/11] overflow-hidden rounded-sm bg-[#EFE9DF] shadow-md border border-[#E0D4CB]/70">
@@ -80,25 +80,6 @@ export default function OurOfficeSection() {
               </p>
             </div>
           </div>
-        </div>
-
-        {/* Minimalist Environmental Attributes (Pills aligned with MayaBio credentials) */}
-        <div className="pt-8 border-t border-[#E0D4CB]/70 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-          <div className="flex flex-wrap items-center gap-2.5 sm:gap-3">
-            <span className="px-3.5 py-1.5 bg-white border border-[#E0D4CB] rounded-sm text-[11px] tracking-[0.16em] uppercase font-medium text-[#735144]">
-              Natural Coastal Light
-            </span>
-            <span className="px-3.5 py-1.5 bg-white border border-[#E0D4CB] rounded-sm text-[11px] tracking-[0.16em] uppercase font-medium text-[#735144]">
-              Acoustic Soundproofing &amp; Privacy
-            </span>
-            <span className="px-3.5 py-1.5 bg-white border border-[#E0D4CB] rounded-sm text-[11px] tracking-[0.16em] uppercase font-medium text-[#735144]">
-              Historic Santa Monica Suite
-            </span>
-          </div>
-
-          <span className="text-xs text-[#8C6B5E] font-light tracking-wide">
-            In-person sessions &amp; California telehealth
-          </span>
         </div>
       </div>
     </section>
